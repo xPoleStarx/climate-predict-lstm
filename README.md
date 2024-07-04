@@ -46,10 +46,15 @@ The training process involves the following steps:
 
 Reading and preprocessing the data: The data is read from CSV files and converted to NumPy arrays.
 `Creating sequences:` The data is transformed into sequences to fit the LSTM model.
+
 `Creating DataLoaders:` PyTorch DataLoaders are created for batching the data.
+
 `Defining the model:` An LSTM model is defined using PyTorch.
+
 `Training the model:` The model is trained using Mean Squared Error (MSE) loss and Adam optimizer.
+
 `Evaluating the model:` The model is evaluated on the test set to compute the test loss, Mean Squared Error (MSE), and R² score.
+
 ## Results
 After training, the model achieved the following performance on the test set:
 
